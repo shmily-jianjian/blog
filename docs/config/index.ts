@@ -4,7 +4,7 @@ export default defineConfig({
   title: '懒人博客',
   description: 'zhaojian的博客笔记',
   base: '/blog/',
-  outDir: '../dist',
+  outDir: '../blog',
   lastUpdated: true,
   head: [
     ['link', { rel: 'icon', type: 'image/jpeg', href: 'http://zhaojian.shop/photo/logo.jpeg' }],

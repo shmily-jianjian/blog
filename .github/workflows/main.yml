@@ -37,5 +37,5 @@ jobs:
           # Remote user
           REMOTE_USER: ${{ secrets.USERNAME }}
           # Remote port
-          SOURCE: ./dist
+          SOURCE: ./blog
           TARGET: /usr/local/nginx/html/www/blog
