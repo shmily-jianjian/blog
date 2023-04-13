@@ -45,11 +45,8 @@ export default defineConfig({
           ],
         },
         {
-          text: 'vue',
-          items: [
-            { text: 'Markdown Examples', link: '/vue/markdown-examples' },
-            { text: 'Runtime API Examples', link: '/vue/api-examples' },
-          ],
+          text: 'nginx',
+          items: [{ text: '前端项目的打包部署上线全流程', link: '/react/cicd' }],
         },
       ],
       '/vue/': [
@@ -58,13 +55,6 @@ export default defineConfig({
           items: [
             { text: 'Markdown Examples', link: '/vue/markdown-examples' },
             { text: 'Runtime API Examples', link: '/vue/api-examples' },
-          ],
-        },
-        {
-          text: 'react',
-          items: [
-            { text: 'Markdown Examples', link: '/react/markdown-examples' },
-            { text: 'Runtime API Examples', link: '/react/api-examples' },
           ],
         },
       ],
