@@ -14,7 +14,7 @@ hero:
       text: 开始
       link: /vue/markdown-examples
     - theme: alt
-      text: vue
+      text: react
       link: /react/markdown-examples
 
 features:
