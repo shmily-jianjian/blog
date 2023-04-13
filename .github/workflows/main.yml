@@ -1,0 +1,41 @@
+name: Blog
+on:
+  push:
+    branches: ['main']
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1 下载代码
+      - uses: actions/checkout@v3
+      # 2 安装pnpm
+      - uses: pnpm/action-setup@v2.2.4
+        with:
+          # Version of pnpm to install
+          version: '7.9.0'
+
+      # 安装依赖
+      - name: 安装依赖
+        run: pnpm install
+
+      # 打包
+      - name: 开始打包
+        run: pnpm build
+
+      # ssh
+      - name: 部署到服务器
+        uses: easingthemes/ssh-deploy@v4.1.8
+        with:
+          # 登陆ssh时候的 sshkey
+          SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
+          # Remote host
+          REMOTE_HOST: ${{ secrets.HOST }}
+          # Remote user
+          REMOTE_USER: ${{ secrets.USERNAME }}
+          # Remote port
+          SOURCE: ./dist
+          TARGET: /usr/local/nginx/html/www/blog
