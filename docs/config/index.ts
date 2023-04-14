@@ -52,10 +52,7 @@ export default defineConfig({
       '/vue/': [
         {
           text: 'vue',
-          items: [
-            { text: 'Markdown Examples', link: '/vue/markdown-examples' },
-            { text: 'Runtime API Examples', link: '/vue/api-examples' },
-          ],
+          items: [{ text: '前端接入sentry', link: '/vue/addSentry' }],
         },
       ],
     },
