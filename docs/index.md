@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /vue/markdown-examples
+      link: /vue/addSentry.html
     - theme: alt
       text: react
       link: /react/markdown-examples
