@@ -20,23 +20,50 @@ export default defineConfig({
     },
     nav: [
       {
-        text: 'Web',
+        text: '前端',
         items: [
           {
-            text: 'Vue',
-            link: '/',
+            text: 'vue',
+            link: '/vue/markdown-examples',
           },
           {
-            text: 'React',
-            link: '/',
+            text: 'react',
+            link: '/react/markdown-examples',
+          },
+          {
+            text: 'ts',
+            link: '/react/markdown-examples',
+          },
+          {
+            text: 'sass',
+            link: '/sass/baseUse',
           },
         ],
       },
-      { text: 'Node', link: '/markdown-examples' },
-      { text: 'TS', link: '/markdown-examples' },
+      {
+        text: '后端',
+        items: [
+          {
+            text: 'nginx',
+            link: '/backEnd/nginx/cicd',
+          },
+          {
+            text: 'node',
+            link: '/backEnd/nginx/cicd',
+          },
+        ],
+      },
+      { text: '面试题', link: '/markdown-examples' },
     ],
     sidebar: {
-      '/react/': [
+      '/': [
+        {
+          text: 'vue',
+          items: [
+            { text: 'Markdown Examples', link: '/vue/markdown-examples' },
+            { text: 'Runtime API Examples', link: '/vue/api-examples' },
+          ],
+        },
         {
           text: 'react',
           items: [
@@ -45,14 +72,16 @@ export default defineConfig({
           ],
         },
         {
-          text: 'nginx',
-          items: [{ text: '前端项目的打包部署上线全流程', link: '/react/cicd' }],
+          text: 'sentry',
+          items: [{ text: '前端接入sentry', link: '/sentry/addSentry' }],
         },
-      ],
-      '/vue/': [
         {
-          text: 'vue',
-          items: [{ text: '前端接入sentry', link: '/vue/addSentry' }],
+          text: 'sass',
+          items: [{ text: 'sass的基本使用', link: '/sass/baseUse' }],
+        },
+        {
+          text: 'nginx',
+          items: [{ text: '前端项目的打包部署上线全流程', link: '/backEnd/nginx/cicd' }],
         },
       ],
     },
