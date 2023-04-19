@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 ## 前端项目接入 sentry
 
 **sentry 服务暂时没有进行私有化部署，如果你想私有化部署请参考 sentry 官网**

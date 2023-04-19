@@ -11,7 +11,7 @@ hero:
     alt: jianjian
   actions:
     - theme: brand
-      text: 开始
+      text: 快速开始
       link: /react/markdown-examples.html
 
 features:
