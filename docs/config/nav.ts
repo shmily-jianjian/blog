@@ -27,15 +27,15 @@ const nav: DefaultTheme.NavItem[] = [
     items: [
       {
         text: 'webpack',
-        link: '/react/markdown-examples',
+        link: '/webpack/baseUse',
       },
       {
         text: 'babel',
-        link: '/engineering/babel/babel-plugin',
+        link: '/babel/babel-plugin',
       },
       {
         text: 'ast',
-        link: '/engineering/ast/ast-base',
+        link: '/ast/ast-base',
       },
     ],
   },

@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /react/markdown-examples.html
+      link: /webpack/baseUse.html
 
 features:
   - icon: 💡
