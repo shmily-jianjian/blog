@@ -197,7 +197,11 @@ console.log(apiUrl);
 
 ### css 兼容处理 postcss-loader 以及它的预设 postcss-preset-env
 
->     postcss是用来处理css兼容性问题的(css界的babel)，postcss-loader是用来连接webpack和postcss的本身不会处理css问题的，只有通过插件才可以而postcss-preset-env包含了很多css处理插件，包含自动前缀等等，
+```js
+// postcss是用来处理css兼容性问题的(css界的babel)
+// postcss-loader是用来连接webpack和postcss的本身不会处理css问题的
+// 只有通过插件才可以而postcss-preset-env包含了很多css处理插件，包含自动前缀等等，
+```
 
 ```js
 // 1 pnpm i postcss-loader postcss-preset-env
@@ -230,7 +234,11 @@ module.exports = {
 
 ### js 兼容处理 babel-loader 以及它的预设 @babel/preset-env
 
->     babel是用来处理js兼容性问题的(像es6+的一些语法，箭头函数，扩展运算符，async，await等等), babel-loader是用来连接webpack和babel的本身不会处理js问题的，只有通过插件才可以, @babel/preset-env包含了很多js处理插件，但是无法转Promise, core-js(babel-polyfill这个包已经废弃了)
+```js
+// babel是用来处理js兼容性问题的(像es6+的一些语法，箭头函数，扩展运算符，async，await等等)
+// babel-loader是用来连接webpack和babel的本身不会处理js问题的，只有通过插件才可以
+// @babel/preset-env包含了很多js处理插件，但是无法转Promise, core-js(babel-polyfill这个包已经废弃了)
+```
 
 ```js
 // 1 pnpm i babel-loader @babel/preset-env core-js -D
