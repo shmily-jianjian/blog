@@ -8,6 +8,7 @@ const sidebar: DefaultTheme.Sidebar = {
         { text: 'webpack的基本使用', link: '/webpack/baseUse' },
         { text: 'webpack的打包结果分析', link: '/webpack/buildAnalysis' },
         { text: '配置文件如何能有类型提示', link: '/webpack/typeTips' },
+        { text: 'webpack优化分析', link: '/webpack/webpackOptimize' },
       ],
     },
   ],
