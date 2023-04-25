@@ -98,6 +98,10 @@ console.log(name);
 
 ### 上面打包产物(去除了注释和自执行括号)
 
+---
+
+## outline: deep
+
 ```js
 var webpackModules = {
   './src/title.js': (unusedWebpackModule, webpackExports, webpackRequire) => {
