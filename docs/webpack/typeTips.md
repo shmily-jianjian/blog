@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # webpack.config.js 和 babel.config.js 如何有类型提示?
 
 ### webpack.config.js

@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # webpack build 产物简单分析
 
 ### 源文件 commonjs 加载 commonjs
