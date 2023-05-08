@@ -101,6 +101,7 @@ const config = {
     // minimize: true,
     splitChunks: {
       // 多个入口都用到了同一个模块比如jquery，那么jquery就会被单独打包到一个文件， 如果单入口呢？？可以测试下
+      // 如果只有一个入口，但是该入口下的多个模块都引入了jquery，webpack也不会重复打包jquery，只会打包一次
       chunks: 'all',
     },
   },

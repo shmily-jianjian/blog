@@ -13,6 +13,12 @@ const sidebar: DefaultTheme.Sidebar = {
       ],
     },
   ],
+  '/rollup': [
+    {
+      text: 'rollup',
+      items: [{ text: 'rollup基本使用', link: '/rollup/baseUse' }],
+    },
+  ],
   '/babel': [
     {
       text: 'babel',

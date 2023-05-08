@@ -30,6 +30,10 @@ const nav: DefaultTheme.NavItem[] = [
         link: '/webpack/baseUse',
       },
       {
+        text: 'rollup',
+        link: '/rollup/baseUse',
+      },
+      {
         text: 'babel',
         link: '/babel/babel-plugin',
       },
